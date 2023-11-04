@@ -1,0 +1,10 @@
+com\guru99bank\utilities\Extentreporter.class
+com\guru99bank\utilities\ReadConfig.class
+com\guru99bank\utilities\XLUtils.class
+com\guru99bank\testcases\TC_02_Add_new_customers.class
+com\guru99bank\utilities\Reports.class
+com\guru99bank\testcases\TC_01_verify_login_with_username_password_DDT.class
+com\guru99bank\pageobjects\Add_new_customers_page_Objects.class
+com\guru99bank\testcases\BaseClass.class
+com\guru99bank\testcases\TC_01_Verify_login_with_vaild_username_password.class
+com\guru99bank\pageobjects\Login_page_Objects.class

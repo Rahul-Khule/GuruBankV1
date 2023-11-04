@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-04T21:26:10 IST" name="guru99bank login suite" finished-at="2023-11-04T21:26:33 IST" duration-ms="22316">
+    <groups>
+    </groups>
+    <test started-at="2023-11-04T21:26:10 IST" name="Login page test" finished-at="2023-11-04T21:26:33 IST" duration-ms="22316">
+      <class name="com.guru99bank.testcases.TC_02_Add_new_customers">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.guru99bank.testcases.TC_02_Add_new_customers@1ddae9b5]" started-at="2023-11-04T21:26:17 IST" name="setup" finished-at="2023-11-04T21:26:21 IST" duration-ms="4142" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addNewCustomerPage()[pri:0, instance:com.guru99bank.testcases.TC_02_Add_new_customers@1ddae9b5]" started-at="2023-11-04T21:26:21 IST" name="addNewCustomerPage" finished-at="2023-11-04T21:26:32 IST" duration-ms="10966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewCustomerPage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.guru99bank.testcases.TC_02_Add_new_customers@1ddae9b5]" started-at="2023-11-04T21:26:32 IST" name="teardown" finished-at="2023-11-04T21:26:33 IST" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.guru99bank.testcases.TC_02_Add_new_customers -->
+      <class name="com.guru99bank.testcases.TC_01_Verify_login_with_vaild_username_password">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.guru99bank.testcases.TC_01_Verify_login_with_vaild_username_password@4e517165]" started-at="2023-11-04T21:26:11 IST" name="setup" finished-at="2023-11-04T21:26:16 IST" duration-ms="5163" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logintest()[pri:0, instance:com.guru99bank.testcases.TC_01_Verify_login_with_vaild_username_password@4e517165]" started-at="2023-11-04T21:26:16 IST" name="logintest" finished-at="2023-11-04T21:26:17 IST" duration-ms="1402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.guru99bank.testcases.TC_01_Verify_login_with_vaild_username_password@4e517165]" started-at="2023-11-04T21:26:17 IST" name="teardown" finished-at="2023-11-04T21:26:17 IST" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.guru99bank.testcases.TC_01_Verify_login_with_vaild_username_password -->
+    </test> <!-- Login page test -->
+  </suite> <!-- guru99bank login suite -->
+</testng-results>

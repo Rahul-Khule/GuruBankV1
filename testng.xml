@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="guru99bank login suite">
+<listeners>
+<listener class-name="com.guru99bank.utilities.Reports"></listener>
+</listeners>
+  <test  name="Login page test">
+  
+  <parameter name="browser" value="chrome">
+  </parameter>
+  
+    <classes>
+       
+     <class name="com.guru99bank.testcases.TC_01_Verify_login_with_vaild_username_password"/>
+   <!--   <class name="com.guru99bank.testcases.TC_01_verify_login_with_username_password_DDT"/> -->
+    <class name="com.guru99bank.testcases.TC_02_Add_new_customers"/>  
+    </classes>
+  </test> 
+</suite> 
