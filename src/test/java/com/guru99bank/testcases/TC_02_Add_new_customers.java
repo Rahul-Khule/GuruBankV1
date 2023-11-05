@@ -28,6 +28,7 @@ public class TC_02_Add_new_customers extends BaseClass {
 		//add new customer page constructor
 		Add_new_customers_page_Objects newcust = new Add_new_customers_page_Objects(driver);
 		newcust.clickNewcustomersection();
+		logger.info("Clicked on new customer section");
 		newcust.setcustomername("rahul D");
 		logger.info("Customer name entered");
 		newcust.ClickgenderRadioButton();

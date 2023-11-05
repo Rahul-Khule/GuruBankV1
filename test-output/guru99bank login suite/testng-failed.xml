@@ -7,20 +7,13 @@
   <test thread-count="5" name="Login page test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.guru99bank.testcases.TC_01_Verify_login_with_vaild_username_password">
+      <class name="com.guru99bank.testcases.TC_03_Add_New_Account">
         <methods>
-          <include name="logintest"/>
+          <include name="test_add_new_account"/>
           <include name="teardown"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.guru99bank.testcases.TC_01_Verify_login_with_vaild_username_password -->
-      <class name="com.guru99bank.testcases.TC_02_Add_new_customers">
-        <methods>
-          <include name="teardown"/>
-          <include name="addNewCustomerPage"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.guru99bank.testcases.TC_02_Add_new_customers -->
+      </class> <!-- com.guru99bank.testcases.TC_03_Add_New_Account -->
     </classes>
   </test> <!-- Login page test(failed) -->
 </suite> <!-- Failed suite [guru99bank login suite] -->

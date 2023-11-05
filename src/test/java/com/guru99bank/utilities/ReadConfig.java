@@ -44,5 +44,13 @@ public class ReadConfig {
 		String epath = pro.getProperty("edgepath");
 		return epath;
 	}
+	public String CustID() {
+		String CID = pro.getProperty("custID");
+		return CID;
+	}
+	public String Accountnum() {
+		String Anum = pro.getProperty("Accountnum");
+		return Anum;
+	}
 	
 }

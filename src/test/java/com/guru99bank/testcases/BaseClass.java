@@ -28,6 +28,9 @@ public class BaseClass {
 	public String baseurl = readconfig.getAppURl();
 	public String uername = readconfig.getUsername();
 	public String password = readconfig.getPassword();
+	public String CustomerID = readconfig.CustID();
+	public String AccountNum = readconfig.Accountnum();
+	
 	
 	public static WebDriver driver;
 	
