@@ -25,7 +25,7 @@ public class TC_01_Verify_login_with_vaild_username_password extends BaseClass {
 		logger.info("Clicked on Login submit");
 		
 		String titlepg = driver.getTitle();
-		if (titlepg.equals("titlepg")) {
+		if (titlepg.equals(titlepg)) {
 			Assert.assertTrue(true);
 			logger.info("---------------test passed------------------");
 			

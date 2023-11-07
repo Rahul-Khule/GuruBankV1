@@ -7,13 +7,6 @@
   <test thread-count="5" name="Login page test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.guru99bank.testcases.TC_01_Verify_login_with_vaild_username_password">
-        <methods>
-          <include name="logintest"/>
-          <include name="teardown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.guru99bank.testcases.TC_01_Verify_login_with_vaild_username_password -->
       <class name="com.guru99bank.testcases.TC_01_verify_login_with_username_password_DDT">
         <methods>
           <include name="LoginDDT" invocation-numbers="0 1 2 3 4 5"/>
