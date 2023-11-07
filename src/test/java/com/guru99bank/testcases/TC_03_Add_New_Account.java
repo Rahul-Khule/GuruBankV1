@@ -53,7 +53,7 @@ public class TC_03_Add_New_Account extends BaseClass{
 			logger.info("-----------------------test passed --------------------------");
 		}
 		else {
-			cpatureSS(driver, "test_add_new_account");
+			cpatureSS(driver, "TC_03_Add_New_Account");
 			Assert.assertTrue(false);
 			logger.info("---------------------------test failed------------------------");
 		}

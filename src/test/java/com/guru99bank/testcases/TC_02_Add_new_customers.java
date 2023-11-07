@@ -61,7 +61,7 @@ public class TC_02_Add_new_customers extends BaseClass {
 			logger.info("-------------------test passed-----------------");
 		}
 		else {
-			cpatureSS(driver, "addNewCustomerPage");
+			cpatureSS(driver, "TC_02_Add_new_customers");
 			Assert.assertTrue(false);
 			logger.info("--------------------test failed-------------------");
 		}

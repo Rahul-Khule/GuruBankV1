@@ -9,12 +9,38 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">guru99bank login suite</th></tr>
-<tr><td><a href="#t0">Login page test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">37,317</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Login page test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">7</td><td class="num">41,262</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">guru99bank login suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Login page test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.guru99bank.testcases.TC_01_Verify_login_with_vaild_username_password</td><td><a href="#m0">logintest</a></td><td rowspan="1">1699198519462</td><td rowspan="1">1573</td></tr><tr class="passedodd"><td rowspan="1">com.guru99bank.testcases.TC_02_Add_new_customers</td><td><a href="#m1">addNewCustomerPage</a></td><td rowspan="1">1699198527371</td><td rowspan="1">10562</td></tr><tr class="passedeven"><td rowspan="1">com.guru99bank.testcases.TC_03_Add_New_Account</td><td><a href="#m2">test_add_new_account</a></td><td rowspan="1">1699198544160</td><td rowspan="1">3551</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">guru99bank login suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Login page test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.guru99bank.testcases.TC_01_Verify_login_with_vaild_username_password</td><td><a href="#m0">logintest</a></td><td rowspan="1">1699363051005</td><td rowspan="1">1445</td></tr><tr class="failedodd"><td rowspan="6">com.guru99bank.testcases.TC_01_verify_login_with_username_password_DDT</td><td><a href="#m1">LoginDDT</a></td><td rowspan="6">1699363060463</td><td rowspan="6">1887</td></tr><tr class="failedodd"><td><a href="#m2">LoginDDT</a></td></tr><tr class="failedodd"><td><a href="#m3">LoginDDT</a></td></tr><tr class="failedodd"><td><a href="#m4">LoginDDT</a></td></tr><tr class="failedodd"><td><a href="#m5">LoginDDT</a></td></tr><tr class="failedodd"><td><a href="#m6">LoginDDT</a></td></tr><tr><th colspan="4">Login page test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.guru99bank.testcases.TC_02_Add_new_customers</td><td><a href="#m7">addNewCustomerPage</a></td><td rowspan="1">1699363073522</td><td rowspan="1">13304</td></tr></tbody>
 </table>
-<h2>Login page test</h2><h3 id="m0">com.guru99bank.testcases.TC_01_Verify_login_with_vaild_username_password#logintest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.guru99bank.testcases.TC_02_Add_new_customers#addNewCustomerPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.guru99bank.testcases.TC_03_Add_New_Account#test_add_new_account</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Login page test</h2><h3 id="m0">com.guru99bank.testcases.TC_01_Verify_login_with_vaild_username_password#logintest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at com.guru99bank.testcases.TC_01_Verify_login_with_vaild_username_password.logintest(TC_01_Verify_login_with_vaild_username_password.java:34)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.guru99bank.testcases.TC_01_verify_login_with_username_password_DDT#LoginDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>cherry </td><td>161616</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at com.guru99bank.testcases.TC_01_verify_login_with_username_password_DDT.LoginDDT(TC_01_verify_login_with_username_password_DDT.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.guru99bank.testcases.TC_01_verify_login_with_username_password_DDT#LoginDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>jod</td><td>55647</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at com.guru99bank.testcases.TC_01_verify_login_with_username_password_DDT.LoginDDT(TC_01_verify_login_with_username_password_DDT.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.guru99bank.testcases.TC_01_verify_login_with_username_password_DDT#LoginDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>mngr529895</td><td>pUtYrAm</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at com.guru99bank.testcases.TC_01_verify_login_with_username_password_DDT.LoginDDT(TC_01_verify_login_with_username_password_DDT.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.guru99bank.testcases.TC_01_verify_login_with_username_password_DDT#LoginDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>mngr529895</td><td>pUtYrAm</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at com.guru99bank.testcases.TC_01_verify_login_with_username_password_DDT.LoginDDT(TC_01_verify_login_with_username_password_DDT.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.guru99bank.testcases.TC_01_verify_login_with_username_password_DDT#LoginDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>rahul d</td><td>232323</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at com.guru99bank.testcases.TC_01_verify_login_with_username_password_DDT.LoginDDT(TC_01_verify_login_with_username_password_DDT.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.guru99bank.testcases.TC_01_verify_login_with_username_password_DDT#LoginDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>mngr529895</td><td>pUtYrAm</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at com.guru99bank.testcases.TC_01_verify_login_with_username_password_DDT.LoginDDT(TC_01_verify_login_with_username_password_DDT.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.guru99bank.testcases.TC_02_Add_new_customers#addNewCustomerPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

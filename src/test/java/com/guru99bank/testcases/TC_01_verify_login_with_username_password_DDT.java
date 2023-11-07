@@ -22,9 +22,11 @@ public class TC_01_verify_login_with_username_password_DDT extends BaseClass{
 		if (isAlertPresent()==true) {
 			driver.switchTo().alert().accept();//closes the alert
 			driver.switchTo().defaultContent();//focus on main page after closing alert
+			cpatureSS(driver, "TC_01_verify_login_with_username_password_DDT");
 			Assert.assertTrue(false);
 		}
 		else {
+			
 			Assert.assertTrue(true);
 			lp.clickonlogout();
 			driver.switchTo().alert().accept();//closes the logout alert
