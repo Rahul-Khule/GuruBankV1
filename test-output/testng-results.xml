@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="8" passed="1" failed="7" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-07T18:47:25 IST" name="guru99bank login suite" finished-at="2023-11-07T18:48:07 IST" duration-ms="41262">
+  <suite started-at="2023-11-07T20:03:55 IST" name="guru99bank login suite" finished-at="2023-11-07T20:04:38 IST" duration-ms="43118">
     <groups>
     </groups>
-    <test started-at="2023-11-07T18:47:25 IST" name="Login page test" finished-at="2023-11-07T18:48:07 IST" duration-ms="41262">
+    <test started-at="2023-11-07T20:03:55 IST" name="Login page test" finished-at="2023-11-07T20:04:38 IST" duration-ms="43118">
       <class name="com.guru99bank.testcases.TC_02_Add_new_customers">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.guru99bank.testcases.TC_02_Add_new_customers@162be91c]" started-at="2023-11-07T18:47:49 IST" name="setup" finished-at="2023-11-07T18:47:53 IST" duration-ms="4515" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.guru99bank.testcases.TC_02_Add_new_customers@162be91c]" started-at="2023-11-07T20:04:20 IST" name="setup" finished-at="2023-11-07T20:04:25 IST" duration-ms="4405" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,17 +18,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="addNewCustomerPage()[pri:0, instance:com.guru99bank.testcases.TC_02_Add_new_customers@162be91c]" started-at="2023-11-07T18:47:53 IST" name="addNewCustomerPage" finished-at="2023-11-07T18:48:06 IST" duration-ms="13304" status="PASS">
+        <test-method signature="addNewCustomerPage()[pri:0, instance:com.guru99bank.testcases.TC_02_Add_new_customers@162be91c]" started-at="2023-11-07T20:04:25 IST" name="addNewCustomerPage" finished-at="2023-11-07T20:04:38 IST" duration-ms="12864" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewCustomerPage -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.guru99bank.testcases.TC_02_Add_new_customers@162be91c]" started-at="2023-11-07T18:48:06 IST" name="teardown" finished-at="2023-11-07T18:48:07 IST" duration-ms="181" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.guru99bank.testcases.TC_02_Add_new_customers@162be91c]" started-at="2023-11-07T20:04:38 IST" name="teardown" finished-at="2023-11-07T20:04:38 IST" duration-ms="161" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.guru99bank.testcases.TC_02_Add_new_customers -->
       <class name="com.guru99bank.testcases.TC_01_verify_login_with_username_password_DDT">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.guru99bank.testcases.TC_01_verify_login_with_username_password_DDT@659eef7]" started-at="2023-11-07T18:47:32 IST" name="setup" finished-at="2023-11-07T18:47:38 IST" duration-ms="5480" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.guru99bank.testcases.TC_01_verify_login_with_username_password_DDT@659eef7]" started-at="2023-11-07T20:04:04 IST" name="setup" finished-at="2023-11-07T20:04:09 IST" duration-ms="5018" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,7 +39,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LoginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.guru99bank.testcases.TC_01_verify_login_with_username_password_DDT@659eef7]" started-at="2023-11-07T18:47:38 IST" name="LoginDDT" data-provider="Logindata" finished-at="2023-11-07T18:47:40 IST" duration-ms="1584" status="FAIL">
+        <test-method signature="LoginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.guru99bank.testcases.TC_01_verify_login_with_username_password_DDT@659eef7]" started-at="2023-11-07T20:04:10 IST" name="LoginDDT" data-provider="Logindata" finished-at="2023-11-07T20:04:12 IST" duration-ms="1771" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -97,7 +97,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginDDT -->
-        <test-method signature="LoginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.guru99bank.testcases.TC_01_verify_login_with_username_password_DDT@659eef7]" started-at="2023-11-07T18:47:40 IST" name="LoginDDT" data-provider="Logindata" finished-at="2023-11-07T18:47:42 IST" duration-ms="1887" status="FAIL">
+        <test-method signature="LoginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.guru99bank.testcases.TC_01_verify_login_with_username_password_DDT@659eef7]" started-at="2023-11-07T20:04:12 IST" name="LoginDDT" data-provider="Logindata" finished-at="2023-11-07T20:04:13 IST" duration-ms="1758" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -155,7 +155,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginDDT -->
-        <test-method signature="LoginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.guru99bank.testcases.TC_01_verify_login_with_username_password_DDT@659eef7]" started-at="2023-11-07T18:47:42 IST" name="LoginDDT" data-provider="Logindata" finished-at="2023-11-07T18:47:43 IST" duration-ms="1627" status="FAIL">
+        <test-method signature="LoginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.guru99bank.testcases.TC_01_verify_login_with_username_password_DDT@659eef7]" started-at="2023-11-07T20:04:13 IST" name="LoginDDT" data-provider="Logindata" finished-at="2023-11-07T20:04:15 IST" duration-ms="1611" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -213,7 +213,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginDDT -->
-        <test-method signature="LoginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.guru99bank.testcases.TC_01_verify_login_with_username_password_DDT@659eef7]" started-at="2023-11-07T18:47:43 IST" name="LoginDDT" data-provider="Logindata" finished-at="2023-11-07T18:47:45 IST" duration-ms="1702" status="FAIL">
+        <test-method signature="LoginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.guru99bank.testcases.TC_01_verify_login_with_username_password_DDT@659eef7]" started-at="2023-11-07T20:04:15 IST" name="LoginDDT" data-provider="Logindata" finished-at="2023-11-07T20:04:17 IST" duration-ms="1719" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -271,7 +271,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginDDT -->
-        <test-method signature="LoginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.guru99bank.testcases.TC_01_verify_login_with_username_password_DDT@659eef7]" started-at="2023-11-07T18:47:45 IST" name="LoginDDT" data-provider="Logindata" finished-at="2023-11-07T18:47:47 IST" duration-ms="1614" status="FAIL">
+        <test-method signature="LoginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.guru99bank.testcases.TC_01_verify_login_with_username_password_DDT@659eef7]" started-at="2023-11-07T20:04:17 IST" name="LoginDDT" data-provider="Logindata" finished-at="2023-11-07T20:04:19 IST" duration-ms="2001" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -329,7 +329,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginDDT -->
-        <test-method signature="LoginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.guru99bank.testcases.TC_01_verify_login_with_username_password_DDT@659eef7]" started-at="2023-11-07T18:47:47 IST" name="LoginDDT" data-provider="Logindata" finished-at="2023-11-07T18:47:48 IST" duration-ms="1583" status="FAIL">
+        <test-method signature="LoginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.guru99bank.testcases.TC_01_verify_login_with_username_password_DDT@659eef7]" started-at="2023-11-07T20:04:19 IST" name="LoginDDT" data-provider="Logindata" finished-at="2023-11-07T20:04:20 IST" duration-ms="1658" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -387,13 +387,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginDDT -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.guru99bank.testcases.TC_01_verify_login_with_username_password_DDT@659eef7]" started-at="2023-11-07T18:47:48 IST" name="teardown" finished-at="2023-11-07T18:47:49 IST" duration-ms="125" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.guru99bank.testcases.TC_01_verify_login_with_username_password_DDT@659eef7]" started-at="2023-11-07T20:04:20 IST" name="teardown" finished-at="2023-11-07T20:04:20 IST" duration-ms="177" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.guru99bank.testcases.TC_01_verify_login_with_username_password_DDT -->
       <class name="com.guru99bank.testcases.TC_01_Verify_login_with_vaild_username_password">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.guru99bank.testcases.TC_01_Verify_login_with_vaild_username_password@46f699d5]" started-at="2023-11-07T18:47:25 IST" name="setup" finished-at="2023-11-07T18:47:30 IST" duration-ms="5050" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.guru99bank.testcases.TC_01_Verify_login_with_vaild_username_password@46f699d5]" started-at="2023-11-07T20:03:55 IST" name="setup" finished-at="2023-11-07T20:04:01 IST" duration-ms="6049" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -404,7 +404,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="logintest()[pri:0, instance:com.guru99bank.testcases.TC_01_Verify_login_with_vaild_username_password@46f699d5]" started-at="2023-11-07T18:47:31 IST" name="logintest" finished-at="2023-11-07T18:47:32 IST" duration-ms="1445" status="FAIL">
+        <test-method signature="logintest()[pri:0, instance:com.guru99bank.testcases.TC_01_Verify_login_with_vaild_username_password@46f699d5]" started-at="2023-11-07T20:04:01 IST" name="logintest" finished-at="2023-11-07T20:04:04 IST" duration-ms="2730" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -450,7 +450,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.guru99bank.testcases.TC_01_Verify_login_with_vaild_username_password@46f699d5]" started-at="2023-11-07T18:47:32 IST" name="teardown" finished-at="2023-11-07T18:47:32 IST" duration-ms="125" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.guru99bank.testcases.TC_01_Verify_login_with_vaild_username_password@46f699d5]" started-at="2023-11-07T20:04:04 IST" name="teardown" finished-at="2023-11-07T20:04:04 IST" duration-ms="146" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

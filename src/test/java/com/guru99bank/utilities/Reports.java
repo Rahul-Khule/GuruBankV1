@@ -45,12 +45,11 @@ public class Reports implements ITestListener{
 	@Override
 	public void onTestFailure(ITestResult result) {
 		
-		String className = result.getTestClass().getName();
-		 String simpleClassName = className.substring(className.lastIndexOf('.') + 1);
+		String methodName = result.getMethod().getMethodName();
 		
 		extenttest.log(Status.FAIL, result.getName()+"got failed");
 		//6 add ss in report
-		String sspath = System.getProperty("user.dir")+"\\Screenshots\\"+simpleClassName+".png";
+		String sspath = System.getProperty("user.dir")+"\\Screenshots\\"+methodName+".png";
 		File f = new File(sspath);
 		if (f.exists()) {
 	        extenttest.log(Status.INFO, "Screenshot exists at: " + sspath);

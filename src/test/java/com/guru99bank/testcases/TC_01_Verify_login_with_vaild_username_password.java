@@ -30,7 +30,7 @@ public class TC_01_Verify_login_with_vaild_username_password extends BaseClass {
 			logger.info("---------------test passed------------------");
 			
 		}else {
-			cpatureSS(driver, "TC_01_Verify_login_with_vaild_username_password");
+			cpatureSS(driver, "logintest");
 			Assert.assertTrue(false);
 			logger.info("-------------------test failed------------------");
 		}
